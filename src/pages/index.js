@@ -11,7 +11,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query BlogPostsQuery {
-    allSteemPost(filter: { author: { eq: "sekhmet" } }, sort: { fields: [created], order: DESC }) {
+    allSteemPost(filter: { author: { eq: "bloodviolet" } }, sort: { fields: [created], order: DESC }) {
       edges {
         node {
           id
