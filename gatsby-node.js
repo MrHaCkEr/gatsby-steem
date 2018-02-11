@@ -5,7 +5,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise((resolve, reject) => {
     graphql(`
       {
-        allSteemPost(filter: { author: { eq: "sekhmet" } }) {
+        allSteemPost(filter: { author: { eq: "bloodviolet" } }) {
           edges {
             node {
               permlink
