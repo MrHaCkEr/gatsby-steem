@@ -3,7 +3,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-steem',
       options: {
-        tag: 'sekhmet',
+        tag: 'bloodviolet',
         sortBy: 'blog',
       },
     },
